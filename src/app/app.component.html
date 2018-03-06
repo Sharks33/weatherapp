@@ -1,0 +1,82 @@
+<div class="center-txt all-caps">
+    <h1>
+        {{title}}
+    </h1>
+</div>
+
+<hr>
+<div class="container color-dark search-city">
+    <div class="col">
+        <input class="btn" type="text" [(ngModel)]="cityName">
+    </div>
+
+    <div class="col">
+        <button class="btn" (click)=searchCity()>Search</button>
+    </div>
+</div>
+
+<div class="container color-light">
+    <h1 class="city center-txt">{{cityName}}</h1>
+
+    <div class="col">
+        <h3 class="center-txt current-weather">
+            Current weather for {{dayName1}}, {{monthName1}} {{dateNum1}} {{fullYear}}
+        </h3>
+        <h3 class="center-txt"><img class="today-icon" src='{{iconUrl1}}' alt='weather icon'></h3>
+        <h3 class="center-txt">
+            <span class="all-caps">{{cityDesc1}}</span> |
+            <span id="current-temp">{{cityTemp1}}&#176;F</span> |
+            Humidity: {{cityHumidity1}}% |
+            Pressure: {{cityPressure1}}hPa
+        </h3>
+    </div>
+</div>
+
+<div class="container-forcast color-light">
+
+    <div class="col col-border">
+        <h3>{{dayName2}}</h3>
+        <h4 class="all-caps">
+            {{cityDesc2}}
+            <img class="forecast-img" src='{{iconUrl2}}' alt='weather icon'>
+        </h4>
+        <h4>High: {{cityTempMax2}}&#176;F Low: {{cityTempMin2}}&#176;F</h4>
+        <h4>Humidity: {{cityHumidity2}}%</h4>
+        <h4>Pressure: {{cityPressure2}}hPa</h4>
+    </div>
+
+    <div class="col col-border">
+        <h3>{{dayName3}}</h3>
+        <h4 class="all-caps">
+            {{cityDesc3}}
+            <img class="forecast-img" src='{{iconUrl3}}' alt='weather icon'>
+        </h4>
+        <h4>High: {{cityTempMax3}}&#176;F Low: {{cityTempMin3}}&#176;F</h4>
+        <h4>Humidity: {{cityHumidity3}}%</h4>
+        <h4>Pressure: {{cityPressure3}}hPa</h4>
+    </div>
+
+    <div class="col col-border">
+        <h3>{{dayName4}}</h3>
+        <h4 class="all-caps">
+            {{cityDesc4}}
+            <img class="forecast-img" src='{{iconUrl4}}' alt='weather icon'>
+        </h4>
+        <h4>High: {{cityTempMax4}}&#176;F Low: {{cityTempMin4}}&#176;F</h4>
+        <h4>Humidity: {{cityHumidity4}}%</h4>
+        <h4>Pressure: {{cityPressure4}}hPa</h4>
+    </div>
+
+    <div class="col col-border">
+        <h3>{{dayName5}}</h3>
+        <h4 class="all-caps">
+            {{cityDesc5}}
+            <img class="forecast-img" src='{{iconUrl5}}' alt='weather icon'>
+        </h4>
+        <h4>High: {{cityTempMax5}}&#176;F Low: {{cityTempMin5}}&#176;F</h4>
+        <h4>Humidity: {{cityHumidity5}}%</h4>
+        <h4>Pressure: {{cityPressure5}}hPa</h4>
+    </div>
+</div>
+
+<!-- <router-outlet></router-outlet> -->
