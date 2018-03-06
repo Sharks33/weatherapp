@@ -101,7 +101,7 @@ export class AppComponent {
   day5 = this.date5.getDay();
 
   searchCity() {
-    this._http.get("http://api.openweathermap.org/data/2.5/forecast?q=" + this.cityName + "&APPID=283cbe444e547b37aeebc38a47c1f12c&cnt=40")
+    this._http.get("https://api.openweathermap.org/data/2.5/forecast?q=" + this.cityName + "&APPID=283cbe444e547b37aeebc38a47c1f12c&cnt=40")
     .subscribe(
       (res: Response) => {
         const city = res.json();
