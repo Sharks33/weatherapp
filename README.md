@@ -18,6 +18,14 @@ $ cd [weatherapp]
 $ npm install
 ```
 
+## TO Demo
+
+### Weather only currently able to update based on 3 hour intervals (this can be updated using paid API).
+
+### Unit tests need to be implemented using Karma and Jasmin, which are in place (should have been done first place).
+
+### Style can always be improved
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
