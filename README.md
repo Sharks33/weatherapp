@@ -18,7 +18,7 @@ $ cd [weatherapp]
 $ npm install
 ```
 
-## TO Demo
+## TO DO
 
 ### Weather only currently able to update based on 3 hour intervals (this can be updated using paid API).
 
