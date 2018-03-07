@@ -1,5 +1,9 @@
 # Weatherapp
 
+## Demo
+
+A demo site running this little app can be found [here](https://sharks33.github.io/weatherapp/).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
 ## Development server

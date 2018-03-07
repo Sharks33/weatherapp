@@ -14,8 +14,12 @@
 
 .search-city {
     display: grid;
-    grid-template-columns: 25% auto;
+    grid-template-columns: 25% 25% 50% auto auto auto;
     padding-top: 15px;
+}
+
+.btn:hover {
+    background-color: #A5F300;
 }
 
 .current-weather {
@@ -74,6 +78,14 @@ input.btn, button.btn {
     margin-bottom: 1em;
     padding: 1em 3em;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #A5F300;
+}
+
+a:hover {
+    color: yellow;
 }
 
 .all-caps {
